@@ -62,11 +62,11 @@ public class VerifyPlan {
 	 
 	 //Changing hiking to cycling
 	 driver.findElement(By.id("de.komoot.android:id/psfb_selected_sport_name_tv")).click();
-	 System.out.println("Hiking");
+	 System.out.println("Current Sports Type Hiking");
 	 driver.findElement(By.xpath("//*[@resource-id='de.komoot.android:id/stlivh_container' and @index='1']")).click();
 	 System.out.println("Cycle");
 	 String Type = driver.findElement(By.id("de.komoot.android:id/psfb_selected_sport_name_tv")).getText();
-	 Assert.assertEquals(Type, "Cycling");
+	 Assert.assertEquals(Type, "Sports type changed to Cycling");
 	 
 	 //Change fitness type
 	 driver.findElement(By.id("de.komoot.android:id/pflfb_title_ttv")).click();
