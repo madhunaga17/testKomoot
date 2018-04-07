@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.komoot.scripts.plan">
-        <methods>
-          <include name="setUp"/>
-          <include name="homePage"/>
-        </methods>
-      </class> <!-- com.komoot.scripts.plan -->
-      <class name="com.komoot.scripts.ChangeSportsType">
+      <class name="com.komoot.scripts.VerifyChangeSportsType">
         <methods>
           <include name="hike"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.komoot.scripts.ChangeSportsType -->
+      </class> <!-- com.komoot.scripts.VerifyChangeSportsType -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

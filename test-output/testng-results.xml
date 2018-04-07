@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="181201" started-at="2018-04-07T16:36:17Z" finished-at="2018-04-07T16:39:19Z">
+  <suite name="Suite" duration-ms="147317" started-at="2018-04-07T17:23:53Z" finished-at="2018-04-07T17:26:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="181201" started-at="2018-04-07T16:36:17Z" finished-at="2018-04-07T16:39:19Z">
-      <class name="com.komoot.scripts.navigateHomePage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.navigateHomePage@6eebc39e]" name="setUp" is-config="true" duration-ms="41126" started-at="2018-04-07T18:36:17Z" finished-at="2018-04-07T18:36:59Z">
+    <test name="Test" duration-ms="147317" started-at="2018-04-07T17:23:53Z" finished-at="2018-04-07T17:26:21Z">
+      <class name="com.komoot.scripts.VerifyChangeSportsType">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.VerifyChangeSportsType@464bee09]" name="setUp" is-config="true" duration-ms="25250" started-at="2018-04-07T19:24:26Z" finished-at="2018-04-07T19:24:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.komoot.scripts.navigateHomePage@6eebc39e]" name="homePage" duration-ms="6423" started-at="2018-04-07T18:36:59Z" finished-at="2018-04-07T18:37:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage -->
-      </class> <!-- com.komoot.scripts.navigateHomePage -->
-      <class name="com.komoot.scripts.plan">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.plan@f6c48ac]" name="setUp" is-config="true" duration-ms="37345" started-at="2018-04-07T18:37:54Z" finished-at="2018-04-07T18:38:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homePage()[pri:0, instance:com.komoot.scripts.plan@f6c48ac]" name="homePage" duration-ms="46954" started-at="2018-04-07T18:38:32Z" finished-at="2018-04-07T18:39:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage -->
-      </class> <!-- com.komoot.scripts.plan -->
-      <class name="com.komoot.scripts.ChangeSportsType">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.ChangeSportsType@464bee09]" name="setUp" is-config="true" duration-ms="36942" started-at="2018-04-07T18:37:05Z" finished-at="2018-04-07T18:37:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="hike()[pri:0, instance:com.komoot.scripts.ChangeSportsType@464bee09]" name="hike" duration-ms="12374" started-at="2018-04-07T18:37:42Z" finished-at="2018-04-07T18:37:54Z">
+        <test-method status="PASS" signature="hike()[pri:0, instance:com.komoot.scripts.VerifyChangeSportsType@464bee09]" name="hike" duration-ms="13109" started-at="2018-04-07T19:24:51Z" finished-at="2018-04-07T19:25:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hike -->
-      </class> <!-- com.komoot.scripts.ChangeSportsType -->
+      </class> <!-- com.komoot.scripts.VerifyChangeSportsType -->
+      <class name="com.komoot.scripts.VerifyPlan">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.VerifyPlan@f6c48ac]" name="setUp" is-config="true" duration-ms="33840" started-at="2018-04-07T19:25:04Z" finished-at="2018-04-07T19:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.komoot.scripts.VerifyPlan@f6c48ac]" name="homePage" duration-ms="42620" started-at="2018-04-07T19:25:38Z" finished-at="2018-04-07T19:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- com.komoot.scripts.VerifyPlan -->
+      <class name="com.komoot.scripts.VerifyHomePage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.komoot.scripts.VerifyHomePage@6eebc39e]" name="setUp" is-config="true" duration-ms="25260" started-at="2018-04-07T19:23:53Z" finished-at="2018-04-07T19:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.komoot.scripts.VerifyHomePage@6eebc39e]" name="homePage" duration-ms="7172" started-at="2018-04-07T19:24:19Z" finished-at="2018-04-07T19:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+      </class> <!-- com.komoot.scripts.VerifyHomePage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

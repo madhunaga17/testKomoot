@@ -64,16 +64,16 @@ public class VerifyPlan {
 	 driver.findElement(By.id("de.komoot.android:id/psfb_selected_sport_name_tv")).click();
 	 System.out.println("Current Sports Type Hiking");
 	 driver.findElement(By.xpath("//*[@resource-id='de.komoot.android:id/stlivh_container' and @index='1']")).click();
-	 System.out.println("Cycle");
+	 System.out.println("Sports type changed to Cycle");
 	 String Type = driver.findElement(By.id("de.komoot.android:id/psfb_selected_sport_name_tv")).getText();
-	 Assert.assertEquals(Type, "Sports type changed to Cycling");
-	 
+	 Assert.assertEquals(Type, "Cycling");
 	 //Change fitness type
 	 driver.findElement(By.id("de.komoot.android:id/pflfb_title_ttv")).click();
+	 System.out.println("Current Fitness Type is In Good Shape");
 	 driver.findElement(By.id("de.komoot.android:id/pflfb_fitness_minus_ib")).click();
 	 String fitnessType = driver.findElement(By.id("de.komoot.android:id/pflfb_selected_fitness_level_ttv")).getText();
 	 Assert.assertEquals(fitnessType, "Average");
-	 
+	 System.out.println("Fitness Type is Changed to Average");
 	 //Search Location
 	 driver.findElement(By.xpath("//*[@resource-id='de.komoot.android:id/pwb_location_name_tatv' and @text='Current Location']")).click();
 	 driver.findElement(By.id("android:id/search_src_text")).sendKeys("Hamburg Airport, Hamburg");

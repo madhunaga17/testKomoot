@@ -41,9 +41,10 @@ public class VerifyChangeSportsType {
 		 driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
 		 driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).click();
 		 driver.findElement(By.id("de.komoot.android:id/stlivh_sport_icon_iv")).click();
-		// driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
+	
 		 String Actualtext = driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
 		 Assert.assertEquals(Actualtext, "All Sports");
+		 System.out.println("Sports Type Changed");
 		 driver.quit();
 		 System.out.println("App Stopped");
 	    }
