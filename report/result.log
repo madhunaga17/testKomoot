@@ -1,0 +1,2 @@
+com.komoot.scripts.plan 2018-04-07 17:54:33,710 com.komoot.scripts.BaseTest.initReport(BaseTest.java:62) Initializing ExtentReport 
+com.komoot.scripts.plan 2018-04-07 17:54:34,825 com.komoot.scripts.BaseTest.initGlobalVar(BaseTest.java:77) Initialize Global Variables 

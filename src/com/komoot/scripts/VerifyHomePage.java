@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class navigateHomePage {
+public class VerifyHomePage {
 
   
     
@@ -37,24 +37,14 @@ public class navigateHomePage {
     
     @Test
     public void homePage(){
-     System.out.println("app lunched");
+     System.out.println("App Started");
 	 driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
 	 String Actualtext = driver.findElement(By.xpath("//android.widget.TextView[@text='Find your perfect Tour']")).getText();
 	 Assert.assertEquals(Actualtext, "Find your perfect Tour");
+	 driver.quit();
+	 System.out.println("Home Page displayed");
+	 System.out.println("App Stopped");
     }
-    
-    @Test
-    public void hike(){
-     System.out.println("app lunched");
-	 driver.findElement(By.id("de.komoot.android:id/dsrli_image_riv")).click();
-	 driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
-	 driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).click();
-	 driver.findElement(By.id("de.komoot.android:id/stlivh_sport_icon_iv")).click();
-	// driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
-	 String Actualtext = driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
-	 Assert.assertEquals(Actualtext, "All Sports");
-    }
-    
     
     
     

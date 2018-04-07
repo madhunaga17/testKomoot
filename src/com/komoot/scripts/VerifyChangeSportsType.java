@@ -13,7 +13,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class ChangeSportsType {
+public class VerifyChangeSportsType {
 	 private static AndroidDriver driver;
 	    
 	    @BeforeClass
@@ -35,7 +35,7 @@ public class ChangeSportsType {
 	    
 	    @Test
 	    public void hike(){
-	     System.out.println("App lunched");
+	     System.out.println("App Started");
 		 driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
 		 driver.findElement(By.id("de.komoot.android:id/dsrli_image_riv")).click();
 		 driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
@@ -45,7 +45,7 @@ public class ChangeSportsType {
 		 String Actualtext = driver.findElement(By.id("de.komoot.android:id/dtsfbv_selected_sport_name_tv")).getText();
 		 Assert.assertEquals(Actualtext, "All Sports");
 		 driver.quit();
-		 System.out.println("App Closed");
+		 System.out.println("App Stopped");
 	    }
 	    
 }
