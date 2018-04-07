@@ -46,8 +46,4 @@ public class VerifyHomePage {
 	 System.out.println("App Stopped");
     }
     
-    
-    
-    
-    
  }
