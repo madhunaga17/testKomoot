@@ -31,7 +31,7 @@ Appium testing on Komoot app
 	* run POM.XML
 	* Check the result test-output folder by opening index.html in browser
 	* find the screenshot in snap folder
-4. Find the Testcases in 
+4. Find the Testcases in testKomoot/Testcases.xlsx
 ### Resources
 
 ##### [Sauce Labs Documentation](https://wiki.saucelabs.com/)
