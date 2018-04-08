@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.komoot.scripts.VerifyHomePage">
-        <methods>
-          <include name="homePage"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.komoot.scripts.VerifyHomePage -->
-      <class name="com.komoot.scripts.TapElevation">
-        <methods>
-          <include name="tapElevation"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.komoot.scripts.TapElevation -->
-      <class name="com.komoot.scripts.VerifyChangeSportsType">
+      <class name="com.komoot.scripts.ChangeNotification">
         <methods>
           <include name="setUp"/>
-          <include name="verifyChangeSportsType"/>
+          <include name="changeNotification"/>
         </methods>
-      </class> <!-- com.komoot.scripts.VerifyChangeSportsType -->
-      <class name="com.komoot.scripts.VerifyPlan">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyPlan"/>
-        </methods>
-      </class> <!-- com.komoot.scripts.VerifyPlan -->
+      </class> <!-- com.komoot.scripts.ChangeNotification -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

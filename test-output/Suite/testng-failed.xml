@@ -9,6 +9,12 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.komoot.scripts.VerifyHomePage -->
+      <class name="com.komoot.scripts.ChangeNotification">
+        <methods>
+          <include name="setUp"/>
+          <include name="changeNotification"/>
+        </methods>
+      </class> <!-- com.komoot.scripts.ChangeNotification -->
       <class name="com.komoot.scripts.TapElevation">
         <methods>
           <include name="tapElevation"/>
@@ -21,12 +27,12 @@
           <include name="verifyChangeSportsType"/>
         </methods>
       </class> <!-- com.komoot.scripts.VerifyChangeSportsType -->
-      <class name="com.komoot.scripts.VerifyPlan">
+      <class name="com.komoot.scripts.VerifyTourPlan">
         <methods>
+          <include name="verifyTourPlan"/>
           <include name="setUp"/>
-          <include name="verifyPlan"/>
         </methods>
-      </class> <!-- com.komoot.scripts.VerifyPlan -->
+      </class> <!-- com.komoot.scripts.VerifyTourPlan -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

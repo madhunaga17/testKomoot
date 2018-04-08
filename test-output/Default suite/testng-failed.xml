@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.komoot.scripts.VerifyPlan">
+      <class name="com.komoot.scripts.ChangeNotification">
         <methods>
           <include name="setUp"/>
-          <include name="verifyPlan"/>
+          <include name="changeNotification"/>
         </methods>
-      </class> <!-- com.komoot.scripts.VerifyPlan -->
+      </class> <!-- com.komoot.scripts.ChangeNotification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

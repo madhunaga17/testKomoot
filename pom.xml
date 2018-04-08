@@ -7,6 +7,7 @@
       <class name="com.komoot.scripts.VerifyChangeSportsType"/>
       <class name="com.komoot.scripts.VerifyTourPlan"/>
       <class name="com.komoot.scripts.TapElevation"/>
+      <class name="com.komoot.scripts.ChangeNotification"/>
     </classes>
   </test>
 </suite>
