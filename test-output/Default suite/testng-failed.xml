@@ -3,18 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.komoot.scripts.plan">
+      <class name="com.komoot.scripts.VerifyPlan">
         <methods>
-          <include name="initGlobalVar"/>
-          <include name="initApplication"/>
           <include name="setUp"/>
-          <include name="homePage"/>
-          <include name="publishReport"/>
-          <include name="initReport"/>
-          <include name="getScreenShot"/>
-          <include name="closeApplication"/>
+          <include name="verifyPlan"/>
         </methods>
-      </class> <!-- com.komoot.scripts.plan -->
+      </class> <!-- com.komoot.scripts.VerifyPlan -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

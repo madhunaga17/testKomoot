@@ -37,13 +37,13 @@ public class VerifyHomePage {
     
     @Test
     public void homePage(){
-     System.out.println("App Started");
+     System.out.println("Home Page Started");
 	 driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
 	 String Actualtext = driver.findElement(By.xpath("//android.widget.TextView[@text='Find your perfect Tour']")).getText();
 	 Assert.assertEquals(Actualtext, "Find your perfect Tour");
 	 driver.quit();
 	 System.out.println("Home Page displayed");
-	 System.out.println("App Stopped");
+	 System.out.println("Home Page Stopped");
     }
     
  }

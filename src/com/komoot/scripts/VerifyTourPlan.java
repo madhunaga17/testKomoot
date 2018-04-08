@@ -23,7 +23,7 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 
-public class VerifyPlan {
+public class VerifyTourPlan {
 
   
     
@@ -55,8 +55,8 @@ public class VerifyPlan {
 	}
 	
     @Test
-    public void homePage() throws IOException, InterruptedException{
-     System.out.println("App Started");
+    public void verifyTourPlan() throws IOException, InterruptedException{
+     System.out.println("Tour Plan Started");
 	 driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
 	 driver.findElement(By.id("de.komoot.android:id/imageViewTabPlanning")).click();
 	 
@@ -87,7 +87,7 @@ public class VerifyPlan {
 	 wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("de.komoot.android:id/textview_cta")));
 	 getScreenShot(driver);
 	 driver.quit();
-	 System.out.println("App Stopped");
+	 System.out.println("Tour Plan Stopped");
 	 
     }
     
