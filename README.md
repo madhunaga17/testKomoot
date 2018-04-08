@@ -8,7 +8,7 @@ Appium testing on Komoot app
     * Install Java, android studio, Appium, Eclipse(Used Luna),  
     
 2. Hardware and Software
-    * Samsung S4, Android Version-5.0.1
+    * Used Samsung S4, Android Version-5.0.1
 	* Selenium Version 3.11.0
 	* Java
 	* Android Studio
