@@ -32,15 +32,17 @@ public class TapElevation {
     
     @Test
     public void tapElevation() throws InterruptedException{
-	     System.out.println("Elevation Testcase Started");
-	     driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
-		 driver.findElement(By.id("de.komoot.android:id/textview_title")).click();
-		 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().text(\"SAVE\"));").click();
-		 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().resourceId(\"de.komoot.android:id/touringElevationProfileView\"));").click();
-		 driver.findElement(By.id("de.komoot.android:id/sc_subtitle_tv")).click();
-		 driver.findElementById("de.komoot.android:id/imagebutton_close").click();
-		 driver.quit();
-		 System.out.println("Elevation Testcase Stopped");
+	 System.out.println("Elevation Testcase Started");
+	 driver.findElement(By.id("de.komoot.android:id/jka_v2_proceed_with_facebook_fragment")).click();
+	 //driver.findElement(By.xpath("//*[@resource-id='de.komoot.android:id/textview_title and @text='Alpine bliss on the long-distance hiking trails in East Tyrol']")).click();
+	 //driver.findElement(By.id("de.komoot.android:id/textview_title")).click();
+	 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().text(\"Alpine bliss on the long-distance hiking trails in East Tyrol\"));").click();
+	 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().text(\"SAVE\"));").click();
+	 driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView("+ "new UiSelector().resourceId(\"de.komoot.android:id/touringElevationProfileView\"));").click();
+	 driver.findElement(By.id("de.komoot.android:id/sc_subtitle_tv")).click();
+	 driver.findElementById("de.komoot.android:id/imagebutton_close").click();
+	 driver.quit();
+	 System.out.println("Elevation Testcase Stopped");
     }
 
 }
